@@ -24,7 +24,18 @@ body {
     flex-direction: column;
 }
 
+.container-left {
+    width: 35%;
+}
 
+.container-right {
+    width: 65%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
 
 .photo-credits {
     font-size: 0.8rem;

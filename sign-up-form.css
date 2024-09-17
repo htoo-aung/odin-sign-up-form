@@ -1,5 +1,9 @@
-* {
-    margin: 0;
+:root {
+    --off-white: #F5F5F0;
+    --light-brown: #C8A27A;
+    --dark-brown: #8B4513;
+    --soft-beige: #E6D3B3;
+    --deep-espresso: #4A2C2A;
 }
 
 body {
@@ -9,10 +13,18 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-#photo-credits {
+.photo-credits {
     font-size: 0.8rem;
 }
 
 #club-name {
     font-family: "PT Serif", serif;
+}
+
+.form-row.odd {
+    background-color: var(--off-white);
+}
+
+.form-row.even {
+    background-color: var(--soft-beige);
 }

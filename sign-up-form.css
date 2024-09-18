@@ -54,7 +54,7 @@ body {
     justify-content: center;
     background-color: var(--black-transparent);
     position: relative;
-    top: 8.5rem;
+    top: 9.5rem;
 }
 
 .logo-container img {
@@ -79,23 +79,26 @@ body {
 
 .section-top, .section-bottom {
     background-color: var(--off-white);
+    height: 33.75%;
 }
 
 .section-middle {
     /* background-color: var(--soft-beige); */
-    display: flex;
-    flex-direction: column;
-
+    height: 32.5%;
 }
 
 .content {
     width: 90%;
 }
 
+.content-middle {
+    display: flex;
+    flex-direction: column;
+}
+
 form {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     /* font-family: "some cool font"; */
 }
 

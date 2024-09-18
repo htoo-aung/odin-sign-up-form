@@ -28,39 +28,39 @@
         <!-- Right side/form elements -->
         <div class="container-right">
             <div class="section section-top">
-                <div class="content">
+                <div class="content content-middle">
                     <div class="form-row odd">
                         <p>hello</p>
                     </div>
                 </div>
             </div>
             <div class="section section-middle">
-                <div class="content">
+                <div class="content content-middle">
                     <h2>Let's do this!</h2>
                     <div class="form-container">
                         <form action="/my-back-end-server" method="post">
                             <div class="user-input-container user-input-left">
-                                <label for="">FIRST NAME</label>
-                                <input type="text" name="" id="">
-                                <label for="">EMAIL</label>
-                                <input type="text" name="" id="">
-                                <label for="">PASSWORD</label>
-                                <input type="text" name="" id="">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" name="firstName" id="first-name" placeholder="John">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email" placeholder="johndoe@example.com">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password">
                             </div>
                             <div class="user-input-container user-input-right">
-                                <label for="">LAST NAME</label>
-                                <input type="text" name="" id="">
-                                <label for="">PHONE NUMBER</label>
-                                <input type="text" name="" id="">
-                                <label for="">CONFIRM PASSWORD</label>
-                                <input type="text" name="" id="">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" name="lastName" id="last-name" placeholder="Doe">
+                                <label for="phone-number">PHONE NUMBER</label>
+                                <input type="tel" name="phoneNumber" id="phone-number" placeholder="000-123-4567">
+                                <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirmPassword" id="confirm-pwd">
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
             <div class="section section-bottom">
-                <div class="content">
+                <div class="content content-bottom">
                     <div class="form-row odd">
                         <button type="submit">Create Account</button>
                         <p>hello</p>

@@ -30,11 +30,10 @@ body {
 .container-left, .container-right {
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .container-left {
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +42,9 @@ body {
 }
 
 .container-right {
-    width: 65%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-container {
@@ -52,11 +53,13 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--black-transparent);
+    position: relative;
+    top: 8.5rem;
 }
 
 .logo-container img {
-    width: 125px;
-    height: 150px;
+    width: 100px;
+    height: 125px;
 }
 
 .photo-credits {
@@ -69,10 +72,20 @@ body {
     font-family: "PT Serif", serif;
 }
 
-.form-row.odd {
+.section-top, .section-bottom {
     background-color: var(--off-white);
 }
 
-.form-row.even {
-    background-color: var(--soft-beige);
+.section-middle {
+    /* background-color: var(--soft-beige); */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-input-container {
+    display: flex;
+    flex-direction: column;
 }

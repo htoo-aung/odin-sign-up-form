@@ -72,17 +72,31 @@ body {
     font-family: "PT Serif", serif;
 }
 
+.section {
+    display: flex;
+    justify-content: center;
+}
+
 .section-top, .section-bottom {
     background-color: var(--off-white);
 }
 
 .section-middle {
     /* background-color: var(--soft-beige); */
+    display: flex;
+    flex-direction: column;
+
 }
 
-.form-container {
+.content {
+    width: 90%;
+}
+
+form {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    /* font-family: "some cool font"; */
 }
 
 .user-input-container {

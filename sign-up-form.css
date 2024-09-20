@@ -5,7 +5,10 @@
     --soft-beige: #E6D3B3;
     --deep-espresso: #4A2C2A;
     --black: #000000;
-    --black-transparent: #00000060
+    --black-transparent: #00000030;
+    --blue-transparent: #BBE0f430;
+    --valid-input: #004DFE;
+    --invalid-input:  #DC0505;
 }
 
 html, body {
@@ -38,7 +41,13 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    background-color: var(--soft-beige);
+    background-image: url(assets/background4.webp);
+    background-position: 50% 50%;
+    background-size: 40rem;
+}
+
+.container-left a:visited {
+    color: var(--black);
 }
 
 .container-right {
@@ -83,8 +92,9 @@ body {
 }
 
 .section-middle {
-    /* background-color: var(--soft-beige); */
     height: 32.5%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .content {
@@ -135,11 +145,17 @@ form {
     border-style: none;
     border-radius: 8px;
     width: 13rem;
-    height: 2.5rem;
+    height: 2.8rem;
+    color: var(--off-white);
+    font-weight: 500;
 }
 
 .submit-container button:hover {
     background-color: var(--soft-beige);
+}
+
+.submit-container button:active {
+    background-color: var(--dark-brown);
 }
 
 .submit-container a {

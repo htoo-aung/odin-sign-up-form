@@ -102,9 +102,16 @@ body {
     line-height: 1.2;
 }
 
+.temptation {
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+}
+
 .content-middle {
     display: flex;
     flex-direction: column;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 form {
@@ -116,5 +123,32 @@ form {
 .user-input-container {
     display: flex;
     flex-direction: column;
+}
+
+.content-bottom {
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.submit-container button {
+    background-color: var(--light-brown);
+    border-style: none;
+    border-radius: 8px;
+    width: 13rem;
+    height: 2.5rem;
+}
+
+.submit-container button:hover {
+    background-color: var(--soft-beige);
+}
+
+.submit-container a {
+    font-weight: 600;
+    color: var(--dark-brown);
+    text-decoration-line: none;
+}
+
+.submit-container a:hover {
+    color: var(--light-brown);
 }
 

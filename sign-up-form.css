@@ -127,12 +127,17 @@ body {
 form {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     /* font-family: "some cool font"; */
 }
 
 .user-input-container {
     display: flex;
     flex-direction: column;
+}
+
+.user-input-container label {
+    font-size: 0.7rem;
 }
 
 .content-bottom {
